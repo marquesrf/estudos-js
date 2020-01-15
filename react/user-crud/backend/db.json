@@ -1,0 +1,11 @@
+{
+    "users": [{
+        "id": 1,
+        "name": "Rafael Marques",
+        "email": "rfmarques@lab42.com"
+    }, {
+        "id": 2,
+        "name": "Eliot Alderson",
+        "email": "3liot@mrobot.com"
+    }]
+}

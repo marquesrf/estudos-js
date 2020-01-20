@@ -1,12 +1,12 @@
-import './Main.css'
-import './Header'
-import React from 'react'
-import Header from './Header'
+import "./Main.css";
+import React from "react";
+import Header from "./Header";
 
-export default props =>
-    <React.Fragment>
-        <Header />
-        <main className="content">
-            Content
-        </main>
-    </React.Fragment>
+export default props => (
+  <React.Fragment>
+    <Header {...props} />
+    <main className="content content-fluid">
+      <div className="p-3 mt-3">{props.children}</div>
+    </main>
+  </React.Fragment>
+);
